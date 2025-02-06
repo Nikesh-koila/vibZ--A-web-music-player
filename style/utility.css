@@ -1,0 +1,991 @@
+.border {
+    border: 2px solid red;
+}
+  
+.flex{
+    display: flex;
+    gap: 3px;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+.icon{
+    filter: invert(75%);
+    width: 1.5rem;    
+}
+.icon-s{
+    filter: invert(75%);
+    width:16px;    
+}
+.icon-flex{
+    display: flex;
+   gap:1rem;
+   align-items: center;
+   color: #b3b3b3;
+}
+
+.rounded{
+    border-radius: 8px;
+}
+
+.pointer{
+    cursor:pointer;
+}
+.font{
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.icon-flex:hover{
+    color:#fff ;
+    cursor: pointer;
+}
+.icon-flex:hover.icon-hover img{
+    filter: invert(1);
+}
+.icon-s:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+.icon-p{
+    width: 24px;
+}
+.play-arrow{
+    filter: invert(1);
+    width: 24px;
+}
+.style-p{
+    padding: 5px;
+    font-size: 13px;
+    color:#ececec
+}
+.song-flex{
+    display: flex;
+    align-items: center;
+}
+.x{
+    opacity: 1;
+    top:138px;
+    transform: scale(1.05);
+}
+
+
+/* media querry */
+
+
+@media only screen and (1444px <= width <1500px){
+    .card{
+        width: 229px;
+    }
+    .click-card{
+        width: 92%;
+        height: 72%;
+    }
+    .card-icon{
+        top: 190px;
+    }
+    .card:hover .card-icon{
+        top: 178px;
+    }
+    .x{
+        top: 178px;
+    }
+    .marquee{
+        width: 226px;
+        top: 65%;
+    }
+}
+@media only screen and (1391px <= width <1444px){
+    .card{
+        width: 219px;
+    }
+    .click-card{
+        width: 92%;
+        height: 72%;
+    }
+    .card-icon{
+        top: 180px;
+    }
+    .card:hover .card-icon{
+        top: 168px;
+    }
+    .x{
+        top: 168px;
+    }
+    .marquee{
+        width: 216px;
+        top: 65%;
+    }
+    
+}
+@media only screen and (1284px <= width <1391px){
+    .card{
+        width: 209px;
+    }
+    .click-card{
+        width: 92%;
+        height: 71%;
+    }
+    .card-icon{
+        top: 170px;
+    }
+    .card:hover .card-icon{
+        top: 158px;
+    }
+    .x{
+        top: 158px;
+    }
+    .marquee{
+        width: 206px;
+        top: 65%;
+    }
+    .style-p {
+        font-size: 10px;
+    }
+    .style-h3{
+        font-size: 14px;
+    }
+    .volume-icon {
+        width: 20px;
+    }
+    .volume {
+        right: 8px;
+        bottom: 10px;
+    }
+  
+    .contrl {
+        width: 75px;
+    }
+    .seekbar{
+        margin-left: 42px;
+    }
+    .circle{
+        margin-left: 44px;
+    }
+}
+@media only screen and (1284px <= width <1337px){
+    .card{
+        width: 199px;
+    }
+    .click-card{
+        height: 69%;
+    }
+    .card-icon{
+        top: 160px;
+    }
+    .card:hover .card-icon{
+        top: 148px;
+    }
+    .x{
+        top: 148px;
+    }
+    .marquee{
+        width: 196px;
+        top: 63%;
+    }
+    .left-policy{
+        font-size: 12px;
+    }
+}
+@media only screen and (1151px <= width <1284px){
+    .card{
+        width: 189px;
+    }
+    .style-p {
+        font-size: 8px;
+    }
+    .style-h3{
+        font-size: 13px;
+    }
+    .volume-icon {
+        width: 20px;
+    }
+    .volume {
+        right: 8px;
+        bottom: 10px;
+    }
+  
+    .contrl {
+        width: 75px;
+    }
+    .seekbar{
+        margin-left: 42px;
+    }
+    .circle{
+        margin-left: 44px;
+    }
+    .left-policy{
+        font-size: 11px;
+    }
+}
+@media only screen and (1203px <= width <1231px){
+    .card{
+        width: 184px;
+    }
+    
+    .click-card{
+        width: 90.5%;
+        height: 67%;
+    }
+    .card-icon{
+        top: 145px;
+    }
+    .card:hover .card-icon{
+        top: 133px;
+    }
+    .x{
+        top: 133px;
+    }
+    
+}
+
+@media only screen and (1151px <= width <1203px){
+    .card{
+        width: 174px;
+    }
+    .click-card{
+        width: 90%;
+    }
+    .card-icon{
+        top: 140px;
+    }
+    .card:hover .card-icon{
+        top: 128px;
+    }
+    .x{
+        top: 128px;
+    }
+    .marquee{
+    width: 174px;
+    }
+}
+@media only screen and (971px <= width <1151px){
+    .card{
+        width: 229px;
+    }
+    .click-card{
+        width: 92%;
+        height: 72%;
+    }
+    .card-icon{
+        top: 190px;
+    }
+    .card:hover .card-icon{
+        top: 178px;
+    }
+    .x{
+        top: 178px;
+    }
+    .marquee{
+        width: 226px;
+        top: 65%;
+    }
+    .style-p {
+        font-size: 6.5px;
+    }
+    .style-h3{
+        font-size: 11px;
+    }
+
+    .volume-icon {
+        width: 18px;
+    }
+    .volume {
+        right: 8px;
+        bottom: 10px;
+    }
+    .contrl {
+        width: 50px;
+    }
+    .seekbar{
+        margin-left: 38px;
+    }
+    .circle{
+        margin-left: 40px;
+    }
+    .range{
+        bottom: 76px;
+        right: -58px;
+    }
+    .left-policy{
+        font-size: 9px;
+    }
+}  
+
+@media only screen and (1051px <= width <1091px){
+    .card{
+        width: 219px;
+    }
+    .click-card{
+        width: 92%;
+        height: 71%;
+    }
+    .card-icon{
+        top: 180px;
+    }
+    .card:hover .card-icon{
+        top: 168px;
+    }
+    .x{
+        top: 168px;
+    }
+    .marquee{
+        width: 216px;
+        top: 65%;
+    }
+}  
+@media only screen and (1011px <= width <1051px){
+    .card{
+        width: 209px;
+    }
+    .click-card{
+        width: 91.5%;
+        height: 70%;
+    }
+    .card-icon{
+        top: 170px;
+    }
+    .card:hover .card-icon{
+        top: 158px;
+    }
+    .x{
+        top: 158px;
+    }
+    .marquee{
+        width: 206px;
+        top: 65%;
+    }
+}  
+@media only screen and (971px <= width <1011px){
+    .card{
+        width: 199px;
+    }
+    .click-card{
+        height: 69%;
+    }
+    .card-icon{
+        top: 160px;
+    }
+    .card:hover .card-icon{
+        top: 148px;
+    }
+    .x{
+        top: 148px;
+    }
+    .marquee{
+        width: 196px;
+        top: 63%;
+    }
+    .style-h3{
+        font-size: 10px;
+    }
+
+}  
+
+@media screen and (max-width: 971px){
+    .left {
+        width: 40vw;
+        position: absolute;
+        left: -100%;
+        z-index: 1;
+        background-color: black;
+    }
+    .cross{
+        display:initial;
+    }
+    .right{
+        width: 100%;
+    }
+    .hamburger{
+        display:initial;
+        width: 2rem;
+    }
+    .arrows{
+        display: none;
+    }
+    .card{
+        width: 190px;
+    }
+    .marquee{
+    width: 188px;
+    }
+    .playbar {
+        height: 9vh;
+        width: 97%;
+    }
+    .style-p {
+        font-size:11 px;
+    }
+    .style-h3{
+        font-size: 13px;
+    }
+
+    .volume {
+        right: 5px;
+    }
+    .contrl {
+        width: 75px;
+    }
+    .seekbar{
+        margin-left: 43px;
+    }
+    .circle{
+        margin-left: 45px;
+    }
+    .playbar-btn {
+     margin-right: -50px;
+    }
+    .left-policy{
+        font-size: 11px;
+    }
+}
+@media only screen and (886px <= width <926px){
+    .card{
+        width: 180px;
+    }
+    .click-card{
+        width: 90%;
+        height: 67%;
+    }
+    .card-icon{
+        top: 141px;
+    }
+    .card:hover .card-icon{
+        top: 129px;
+    }
+    .x{
+        top: 129px;
+    }
+    .marquee{
+        width: 179px;
+    }
+}  
+@media only screen and (846px <= width <886px){
+    .card{
+        width: 170px;
+    }
+    .click-card{
+    width: 89.5%;
+    height: 65.5%;
+    }
+    .card-icon{
+        top: 133px;
+    }
+    .card:hover .card-icon{
+        top: 121px;
+    }
+    .x{
+        top: 121px;
+    }
+    .marquee{
+        width: 167px;
+        top: 60%;
+    }
+}
+@media only screen and (800px <= width <846px){
+    .card{
+        width: 223px;
+    }
+    .click-card{
+    width: 92%;
+    height: 71.5%;
+    }
+    .card-icon{
+        top: 185px;
+    }
+    .card:hover .card-icon{
+        top: 173px;
+    }
+    .x{
+        top: 173px;
+    }
+    .marquee{
+        width: 220px;
+        top: 66%;
+    }
+}
+/*here start*/
+@media only screen and (626px <= width <800px){
+    .card{
+        width: 210px;
+    }
+    .click-card{
+    width: 91.5%;
+    height: 70%;
+    }
+    .card-icon{
+        top: 172px;
+    }
+    .card:hover .card-icon{
+        top: 160px;
+    }
+    .x{
+        top: 160px;
+    }
+    .marquee{
+        width: 206px;
+        top: 65%;
+    }
+    .style-p {
+        font-size:8px;
+    }
+    .style-h3{
+        font-size: 10px;
+    }
+    .volume {
+        right: 5px;    
+    }
+
+    .contrl {
+        width: 65px;
+    }
+    .seekbar{
+        margin-left: 38px;
+    }
+    .circle{
+        margin-left: 40px;
+    }
+    .playbar-btn {
+margin-right: -80px;
+    }
+}
+@media only screen and (716px <= width <761px){
+    .card{
+        width: 195px;
+    }
+    .click-card{
+    height: 68.5%;
+    }
+    .card-icon{
+        top: 158px;
+    }
+    .card:hover .card-icon{
+        top: 146px;
+    }
+    .x{
+        top: 146px;
+    }
+    .marquee{
+        width: 195px;
+        top: 64%;
+    }
+}
+@media only screen and (517px <= width <716px){
+    .card{
+        width: 180px;
+    }
+    .click-card{
+    width: 90%;
+    height: 66.5%;
+    }
+    .card-icon{
+        top: 142px;
+    }
+    .card:hover .card-icon{
+        top: 130px;
+    }
+    .x{
+        top: 130px;
+    }
+    .marquee{
+        width: 179px;
+    }
+    .seekbar{
+        margin-left: 25px;
+    }
+    .circle{
+        margin-left: 24px;
+    }
+    .volume-icon {
+        width: 16px;
+    }
+    .volume {
+        right: 15px;
+        bottom: 6px;   
+    }
+    .left-policy{
+        font-size: 9.5px;
+    }
+}
+@media only screen and (626px <= width <671px){
+    .card{
+        width: 165px;
+    }
+    .click-card{
+    width: 89%;
+    height: 64.5%;
+    }
+    .card-icon{
+        top: 126px;
+    }
+    .card:hover .card-icon{
+        top: 114px;
+    }
+    .x{
+        top: 114px;
+    }
+    .marquee{
+        width: 163px;
+        top: 59%;
+    }
+}
+@media only screen and (517px <= width <626px){
+    .card{
+        width: 230px;
+    }
+    .content {
+        gap: 25px;
+    }
+    .click-card{
+    width: 92%;
+    height: 72%;
+    }
+    .left {
+        width: 45vw;
+    }
+    .card-icon{
+        top: 190px;
+    }
+    .card:hover .card-icon{
+        top: 178px;
+    }
+    .x{
+        top: 178px;
+    }
+    .marquee{
+        width: 226px;
+        top: 67%;
+    }
+    .style-p {
+        font-size:6.5px;
+    }
+    .style-h3{
+        font-size: 9px;
+    }
+    .song-time {
+        font-size: 15px;
+    }
+    .contrl {
+        width: 49px;
+    }
+    .seekbar{
+        margin-left: 20px;
+    }
+    .circle{
+        margin-left: 20px;
+    }
+    .playbar-btn {
+       margin-right: -80px;
+       gap: 20px;
+    }
+    .volume-icon {
+        width: 16px;
+    }
+    .volume {
+        right: 15px;
+        bottom: 6px;   
+    }
+    .play-arrow {
+        width: 20px;
+    }
+}
+
+@media only screen and (517px <= width <567px){
+    .card{
+        width: 205px;
+    }
+    .content {
+        gap: 25px;
+    }
+    .left {
+        width: 50vw;
+    }
+    .click-card{
+        width: 91.5%;
+    height: 69.5%;
+    }
+    .card-icon{
+        top: 168px;
+    }
+    .card:hover .card-icon{
+        top: 156px;
+    }
+    .x{
+        top: 156px;
+    }
+    .marquee{
+        width: 202px;
+        top: 65%;
+    }
+}
+@media only screen and (437px <= width <517px){
+    .right-container {
+        max-height: 68vh;
+    }
+    .playbar {
+        height: 18vh;
+        bottom: 6px;
+    }
+    .left {
+        width: 60vw;
+    }
+    .style-p {
+        font-size:7.5px;
+    }
+    .style-h3{
+        font-size: 10px;
+    }
+
+    .song-time {
+        font-size: 15px;
+    }
+    .contrl {
+        width: 49px;
+    }
+    .seekbar{
+        margin-left: 20px;
+    }
+    .circle{
+        margin-left: 20px;
+        top: 111.5px;
+    }
+    .playbar-btn {
+       margin:55px -80px 0 0;
+       gap: 20px;
+    }
+    .volume-icon {
+        width: 16px;
+    }
+    .volume {
+        right: 30px;
+        bottom: 6px;   
+    }
+    .play-arrow {
+        width: 20px;
+    }
+    .left-policy{
+        font-size: 10px;
+    }
+}
+@media only screen and (345px <= width <478px){
+    .card{
+        width: 170px;
+    }
+    .click-card{
+    width: 89.5%;
+    height: 65.5%;
+    }
+    .card-icon{
+        top: 131px;
+    }
+    .card:hover .card-icon{
+        top: 119px;
+    }
+    .x{
+        top: 119px;
+    }
+    .marquee{
+        width: 168px;
+        top: 60%;
+    }
+}
+@media only screen and (max-width:437px){
+    .card{
+        width: 320px;
+    }
+    .log-in,.sign-up{
+        width: 90px;
+        font-size: .8rem;
+        padding: 8px 20px;
+    }
+    .r-in{
+        display: none;
+    }
+    .sign-up:hover{
+        font-size: .85rem;
+    }
+    .log-in:hover{
+        font-size: .85rem;
+        transform: scale(1.01);
+    }
+    .l-in{
+        display:initial;
+    }
+    .click-card{
+    width: 94.5%;
+    height: 75%;
+    }
+    .left {
+        width: 85vw;
+    }
+    .play-btn{
+        width: 80px;
+        height: 80px;
+    }
+    .icon-p{
+        width: 38px;
+    }
+    .card-icon{
+        top: 255px;
+    }
+    .card:hover .card-icon{
+        top: 238px;
+    }
+    .x{
+        top: 238px;
+    }
+    .marquee{
+        width: 311px;
+        top: 70%;
+    }
+    .name {
+        font-size: 23px;
+    }
+    .art {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    #space{
+        font-size: 25px;
+    }
+    .card h3 {
+        font-size: 35px;
+    }
+    .descript {
+        font-size: 20px;
+    }
+    .right-container {
+        max-height: 58vh;
+    }
+    .playbar {
+        height: 28vh;
+        bottom: 6px;
+    }
+    .playbar-btn {
+        margin:90px -35px 0 0;
+        gap: 20px;
+     }
+     .seekbar{
+        margin-left: 15px;
+    }
+    .circle{
+        margin-left: 13px;
+        top: 177px;
+    }
+    .volume {
+        right: 30px;
+        bottom: 6px;   
+    }
+    .style-p {
+        font-size:14px;
+    }
+    .style-h3{
+        font-size: 18px;
+    }
+    .song-info {
+        margin-top: -85px;
+    }
+    .contrl {
+        width: 75px;
+        margin-top: 133px;
+        margin-top: 145px;
+        margin-right: -28px;
+    }
+    .song-time {
+        font-size: 18px;
+    }
+}
+@media  screen and ( max-width:407px){
+    .card{
+        width: 270px;
+    }
+    .click-card{
+    width: 93%;
+    height: 71.5%;
+    }
+    .play-btn{
+        width: 70px;
+        height: 70px;
+    }
+    .icon-p{
+        width: 34px;
+    }
+    .card-icon{
+        top: 212px;
+    }
+    .card:hover .card-icon{
+        top: 199px;
+    }
+    .x{
+        top: 199px;
+    }
+    .marquee{
+        width: 263px;
+        top: 66%;
+    }
+    .seekbar{
+        margin-left: 5px;
+    }
+    .circle{
+        margin-left: 6px;
+        top: 171px;
+    }
+    .style-p {
+        font-size:12px;
+    }
+    .style-h3{
+        font-size: 16px;
+    }
+    .song-time {
+        font-size: 16px;
+    }
+    .volume {
+        bottom: 48px;   
+    }
+}
+@media  screen and (max-width:345px){
+    .card{
+        width: 240px;
+    }
+    .click-card{
+    width: 92.5%;
+    height: 73%;
+    }
+    .left {
+        width: 90vw;
+    }
+    .card-icon{
+        top: 190px;
+    }
+    .play-btn{
+        width: 60px;
+        height: 60px;
+    }
+    .icon-p{
+        width: 29px;
+    }
+    .card:hover .card-icon{
+        top: 177px;
+    }
+    .x{
+        top: 177px;
+    }
+    .marquee{
+        width: 235px;
+        top: 68%;
+    }
+    .style-p {
+        font-size:9px;
+    }
+    .style-h3{
+        font-size: 13px;
+    }
+    .left-policy{
+        font-size: 11px;
+    }
+}

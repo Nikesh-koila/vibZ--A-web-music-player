@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="160" width="20" height="20" fill="white">
+          <animate attributeName="height" values="20;100;20" dur="0.5s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="160;80;160" dur="0.5s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="45" y="160" width="20" height="20" fill="white">
+          <animate attributeName="height" values="20;90;20" dur="0.5s" repeatCount="indefinite" begin="0.1s"/>
+          <animate attributeName="y" values="160;90;160" dur="0.5s" repeatCount="indefinite" begin="0.1s"/>
+        </rect>
+        <rect x="70" y="160" width="20" height="20" fill="white">
+          <animate attributeName="height" values="20;110;20" dur="0.5s" repeatCount="indefinite" begin="0.2s"/>
+          <animate attributeName="y" values="160;70;160" dur="0.5s" repeatCount="indefinite" begin="0.2s"/>
+        </rect>
+        <rect x="95" y="160" width="20" height="20" fill="white">
+          <animate attributeName="height" values="20;70;20" dur="0.5s" repeatCount="indefinite" begin="0.3s"/>
+          <animate attributeName="y" values="160;110;160" dur="0.5s" repeatCount="indefinite" begin="0.3s"/>
+        </rect>
+      </svg>
